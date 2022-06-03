@@ -39,6 +39,9 @@
     display: flex;
     gap: 40px;
 }
+.links a{
+    color: #1E232C;
+}
 #blog-blog a{
     color: #FF00F7;
 }
@@ -48,4 +51,7 @@
     background: white;
     padding: 11px 15px;
     align-self: center;
+}
+.contact-head a{
+    color: #000000;
 }
