@@ -5,7 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Some of the files aren't downloadable example : logo file 
 
-# I am using 13 inches macbook and my large screen monitor has spoilt. so permit my errors if it does not look good on bigger screen 
+# I am using 13 inches macbook and my large screen monitor has spoilt. so permit my errors if it does not look good on bigger screen yet
+
+# src/component/owners is for Section 2 of the assessment.
 
 # Run `npm install`to download available packages used in development 
 
