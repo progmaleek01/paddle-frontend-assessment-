@@ -4,7 +4,7 @@ import Blog from './components/blogs/Blog'
 import CommingSoon from './components/commingSoon/CommingSoon'
 import Data  from './components/Data'
 import Owners from './components/owners/Owners'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 import IMAGE from './assets/sample.png'
@@ -56,28 +56,18 @@ const App = () => {
     },
   ]
   return (
-    <Router>
-    <>
+   <Router>
+      <>
+      <Routes>
+        <Route exact path='/' element={<CommingSoon/>}/>       
 
-    <Switch>
-      <Route exact path='/'>
-      <CommingSoon/> 
-      </Route>
-    </Switch>
+        <Route exact path='/owners' element={<Owners/>}/> 
+          
+        <Route exact path='/blog' element={<Blog Blogs={blogs} />}/>
 
-
-
-    </>
-
+      </Routes>
+      </>
     </Router>
-
-
-      // {/* <Axios /> */}
-      // {/* <Data/> */}
-      // {/* <Owners/> */}
-      // {/* <Header/> */}
-      // {/* */}
-      // <Blog Blogs={blogs}/>
     
   )
 }
