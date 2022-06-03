@@ -1,0 +1,22 @@
+.article-news{
+    height: 390px;
+    background: transparent linear-gradient(180deg, #210045 0%, #0C0123 100%) 0% 0% no-repeat padding-box;
+}
+.back-fade{
+    height: 200px;
+    width: 150px;
+    background: transparent linear-gradient(177deg, #7F1E7B 0%, #19073B 100%) 0% 0% no-repeat padding-box;
+    margin-left: 200px;
+
+}
+.article-blur{
+    position: absolute;
+    left: 0;
+    top: 100px;
+    height: 389px;
+    width: 641px;
+    background: transparent linear-gradient(180deg, #213F72 0%, #19073B 100%) 0% 0% no-repeat padding-box;
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+    opacity: 30%;
+}
